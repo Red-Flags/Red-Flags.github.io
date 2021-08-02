@@ -1,4 +1,4 @@
-/* Generated on: Mon Aug 02 2021 13:10:43 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Mon Aug 02 2021 16:49:55 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -2496,6 +2496,14 @@ p {
 }
 
 .paragraph {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     font-family: Montserrat, sans-serif;
     color: #202237;
     font-size: 16px;
@@ -2504,6 +2512,14 @@ p {
 }
 
 .paragraph-2 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     font-family: Montserrat, sans-serif;
     color: #202237;
     font-size: 16px;
@@ -2516,10 +2532,10 @@ p {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: start;
-    -webkit-justify-content: flex-start;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     font-family: Montserrat, sans-serif;
     color: #202237;
     font-size: 16px;
@@ -2528,6 +2544,14 @@ p {
 }
 
 .paragraph-4 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     font-family: Montserrat, sans-serif;
     color: #a00a35;
     font-size: 16px;
@@ -2536,6 +2560,14 @@ p {
 }
 
 .paragraph-5 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     font-family: Montserrat, sans-serif;
     color: #a00a35;
     font-size: 16px;
@@ -2622,6 +2654,7 @@ p {
     border: 1px solid transparent;
     border-radius: 10px;
     box-shadow: 1px 1px 5px 0 #e8a19d;
+    text-align: center;
 }
 
 .columns-2 {
@@ -2857,6 +2890,17 @@ p {
 
     .contact-info-column {
         text-align: center;
+    }
+
+    .columns-3 {
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: stretch;
+        -webkit-align-items: stretch;
+        -ms-flex-align: stretch;
+        align-items: stretch;
     }
 }
 @font-face {
